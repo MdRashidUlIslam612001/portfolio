@@ -94,12 +94,7 @@ export default function PublicationsSection() {
         ))}
       </div>
 
-      <div className="mt-8 flex items-start gap-3 border border-slateLine bg-white p-4 text-sm leading-6 text-slate-600">
-        <Search className="mt-1 shrink-0 text-teal" size={18} />
-        <p>
-          Accepted or submitted manuscripts without public DOI links currently point to a publication status page.
-        </p>
-      </div>
+      
     </section>
   );
 }
