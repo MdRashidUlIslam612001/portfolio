@@ -1,0 +1,15 @@
+export const navigation = [
+  { id: 'intro', number: '00', label: 'Intro' },
+  { id: 'about', number: '01', label: 'About' },
+  { id: 'research', number: '02', label: 'Research' },
+  { id: 'education', number: '03', label: 'Education' },
+  { id: 'experience', number: '04', label: 'Experience' },
+  { id: 'publications', number: '05', label: 'Publications' },
+  { id: 'projects', number: '06', label: 'Projects' },
+  { id: 'awards', number: '07', label: 'Awards' },
+  { id: 'teaching', number: '08', label: 'Teaching' },
+  { id: 'leadership', number: '09', label: 'Leadership' },
+  { id: 'skills', number: '10', label: 'Skills' },
+  { id: 'adventure', number: '11', label: 'Beyond Research' },
+  { id: 'contact', number: '12', label: 'Contact' },
+];

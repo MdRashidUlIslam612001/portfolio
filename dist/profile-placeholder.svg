@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 640" role="img" aria-label="Profile image placeholder for Md Rashid Ul Islam">
+  <rect width="520" height="640" fill="#070b13"/>
+  <rect x="32" y="32" width="456" height="576" rx="28" fill="#0b111d" stroke="#27354a" stroke-width="2"/>
+  <circle cx="260" cy="224" r="88" fill="#111b2c"/>
+  <path d="M144 490c18-86 71-132 116-132s98 46 116 132" fill="#111b2c"/>
+  <circle cx="260" cy="214" r="54" fill="#72d1d2" opacity=".75"/>
+  <path d="M160 492c20-67 61-101 100-101s80 34 100 101" fill="#72d1d2" opacity=".75"/>
+  <text x="260" y="566" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#e8f2ff">Add Profile Photo</text>
+</svg>

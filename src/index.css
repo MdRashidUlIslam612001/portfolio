@@ -1,0 +1,264 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #070b13;
+  color: #e6edf6;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(114, 209, 210, 0.25);
+  color: #ffffff;
+}
+
+.section-shell {
+  margin-inline: auto;
+  max-width: 1080px;
+  padding: 4.75rem 1.25rem;
+}
+
+.focus-ring:focus-visible {
+  outline: 3px solid #72d1d2;
+  outline-offset: 4px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.placeholder-image-note {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  border: 1px solid rgba(114, 209, 210, 0.2);
+  background: rgba(7, 11, 19, 0.84);
+  color: #d8e8ff;
+  padding: 0.65rem;
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+.ambient-bg {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background:
+    linear-gradient(120deg, rgba(7, 11, 19, 0.72), rgba(7, 11, 19, 0.92)),
+    linear-gradient(180deg, rgba(114, 209, 210, 0.08), transparent 42%),
+    #070b13;
+}
+
+.ambient-bg__grid,
+.ambient-bg__sweep,
+.ambient-bg__nodes {
+  position: absolute;
+  inset: -20%;
+}
+
+.ambient-bg__grid {
+  opacity: 0.42;
+  background-image:
+    linear-gradient(rgba(114, 209, 210, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(114, 209, 210, 0.08) 1px, transparent 1px);
+  background-size: 56px 56px;
+  animation: labGridDrift 18s linear infinite;
+  mask-image: linear-gradient(to bottom, black, transparent 92%);
+}
+
+.ambient-bg__sweep {
+  opacity: 0.36;
+  background:
+    linear-gradient(110deg, transparent 22%, rgba(114, 209, 210, 0.12) 48%, transparent 66%),
+    repeating-linear-gradient(110deg, transparent 0 76px, rgba(216, 173, 91, 0.1) 77px 78px, transparent 79px 142px);
+  animation: signalSweep 14s ease-in-out infinite alternate;
+}
+
+.ambient-bg__sweep--two {
+  opacity: 0.22;
+  transform: rotate(180deg);
+  animation-duration: 20s;
+}
+
+.ambient-bg__nodes {
+  opacity: 0.34;
+  background-image:
+    radial-gradient(circle at 18px 18px, rgba(216, 173, 91, 0.25) 1px, transparent 2px),
+    radial-gradient(circle at 42px 42px, rgba(114, 209, 210, 0.24) 1px, transparent 2px);
+  background-size: 96px 96px;
+  animation: nodePulse 8s ease-in-out infinite;
+}
+
+.bg-white,
+.bg-paper {
+  background-color: rgba(11, 17, 29, 0.88) !important;
+}
+
+.bg-mist {
+  background-color: rgba(17, 27, 44, 0.94) !important;
+}
+
+.bg-navy {
+  background-color: #1f6f8b !important;
+}
+
+.border-slateLine {
+  border-color: rgba(92, 119, 151, 0.36) !important;
+}
+
+.border-navy {
+  border-color: rgba(114, 209, 210, 0.45) !important;
+}
+
+.text-ink,
+.text-navy {
+  color: #e8f2ff !important;
+}
+
+.text-slate-800,
+.text-slate-700 {
+  color: #cfd9e8 !important;
+}
+
+.text-slate-600 {
+  color: #aebbd0 !important;
+}
+
+.text-slate-500 {
+  color: #8f9db2 !important;
+}
+
+.text-teal {
+  color: #72d1d2 !important;
+}
+
+.text-brass {
+  color: #d8ad5b !important;
+}
+
+.shadow-sm,
+.shadow-soft {
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.26) !important;
+}
+
+.hover\:bg-white:hover,
+.hover\:bg-mist:hover {
+  background-color: rgba(17, 27, 44, 0.96) !important;
+}
+
+.hover\:text-teal:hover,
+.hover\:text-navy:hover {
+  color: #72d1d2 !important;
+}
+
+article,
+.focus-ring,
+form {
+  transition:
+    border-color 180ms ease,
+    background-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+article:hover {
+  box-shadow: 0 22px 58px rgba(0, 0, 0, 0.34);
+}
+
+@keyframes labGridDrift {
+  from {
+    transform: translate3d(0, 0, 0);
+    background-position: 0 0, 0 0;
+  }
+  to {
+    transform: translate3d(18px, 18px, 0);
+    background-position: 112px 56px, 56px 112px;
+  }
+}
+
+@keyframes signalSweep {
+  from {
+    transform: translate3d(-8%, -3%, 0) rotate(-2deg);
+  }
+  to {
+    transform: translate3d(8%, 3%, 0) rotate(2deg);
+  }
+}
+
+@keyframes nodePulse {
+  0%,
+  100% {
+    opacity: 0.22;
+  }
+  50% {
+    opacity: 0.46;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-shell {
+    padding: 5.75rem 2rem;
+  }
+}
+
+@media print {
+  body {
+    background: #ffffff;
+  }
+
+  nav,
+  .screen-only,
+  form,
+  .print-hidden {
+    display: none !important;
+  }
+
+  main {
+    padding-left: 0 !important;
+  }
+
+  .section-shell {
+    max-width: none;
+    padding: 1.25rem 0;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}

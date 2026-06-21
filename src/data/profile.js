@@ -1,0 +1,28 @@
+export const profile = {
+  name: 'Md Rashid Ul Islam',
+  shortTitle: 'Lecturer, Researcher, Robotics and Intelligent Systems Enthusiast',
+  location: 'Dhaka, Bangladesh',
+  affiliation: 'Department of Computer Science and Engineering, Military Institute of Science and Technology',
+  image: './profile.jpg',
+  cvUrl: './cv.pdf',
+  officialEmail: 'rashid@cse.mist.ac.bd',
+  officialEmailHref: 'mailto:rashid@cse.mist.ac.bd',
+  personalEmail: 'rashidbdasia51@gmail.com',
+  personalEmailHref: 'mailto:rashidbdasia51@gmail.com',
+  phone: '+880-1969-844062',
+  phoneHref: 'tel:+8801969844062',
+  linkedin: 'https://www.linkedin.com/in/md-rashid-ul-islam-949248207/',
+  googleScholar: 'https://scholar.google.com/citations?user=ZCFCQDEAAAAJ&hl=en',
+  website: 'https://mist.ac.bd/department/computer_science_and_engineering/faculty-members/md-rashid-ul-islam',
+  ogUrl: 'https://mist.ac.bd/department/computer_science_and_engineering/faculty-members/md-rashid-ul-islam',
+  summary:
+    'Lecturer in Computer Science and Engineering at MIST and a prospective PhD student focused on robotics, intelligent systems and human-computer interaction. Academic record, research publications, robotics leadership, and applied intelligent systems projects show a sustained interest in building deployable technologies for real-world settings.',
+  researchTags: [
+    'Robotics',
+    'Intelligent Systems',
+    'Human-Computer Interaction',
+    'Computer Vision',
+    'IoT',
+    'Human-Centered AI',
+  ],
+};
