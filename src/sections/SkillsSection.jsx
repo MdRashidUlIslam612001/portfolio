@@ -9,8 +9,7 @@ export default function SkillsSection() {
     <section className="border-y border-slateLine bg-white">
       <div className="section-shell">
         <SectionHeader id="skills" number="10" title="Skills" eyebrow="Technical toolkit">
-          Skills are grouped around programming, AI/ML, embedded systems, robotics, and tools explicitly supported by
-          the provided CV extract.
+          Skills are grouped around programming, AI/ML, embedded systems, and robotics.
         </SectionHeader>
 
         <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
