@@ -15,7 +15,7 @@ export default function AboutSection() {
         <p id="about-heading">
           Md Rashid Ul Islam is a Computer Science and Engineering lecturer at the Military Institute of Science and
           Technology with a strong undergraduate record and a research profile shaped by robotics, AI, HCI, IoT, and
-          intelligent systems.
+          Intelligent Systems.
         </p>
       </SectionHeader>
 
@@ -38,13 +38,13 @@ export default function AboutSection() {
         <Reveal delay={0.1}>
           <div className="space-y-5 border border-slateLine bg-white p-6 text-lg leading-8 text-slate-700 shadow-sm md:p-8">
             <p>
-              Completed B.Sc. in Computer Science and Engineering from MIST from Jan 2020 to Mar 2024, earning a CGPA
+              Completed B.Sc. in Computer Science and Engineering from Military Institute of Science & Technology from Jan 2020 to Mar 2024, earning a CGPA
               of 3.84 out of 4.00 and ranking 3rd among 88 students. This academic foundation is reinforced by
               sustained work in robotics competitions, intelligent-system prototypes, HCI studies, and publication-led
               research.
             </p>
             <p>
-              Combines teaching, student mentoring, and research development as a Lecturer at MIST. Work spans
+              Combines teaching, student mentoring, and research development as a Lecturer at Military Institute of Science & Technology. Work spans
               cost-effective robotics, computer-vision systems for monitoring and prediction, adaptive interfaces,
               usability research for underrepresented users, and IoT-based embedded automation.
             </p>

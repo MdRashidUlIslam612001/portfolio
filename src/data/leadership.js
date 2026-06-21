@@ -67,6 +67,6 @@ export const leadership = [
     organization: 'Department of CSE',
     period: 'Mar 2023 - Mar 2024',
     detail:
-      'Represented department-level student or academic coordination responsibilities recorded in the CV extract.',
+      'Represented department-level student and academic coordination responsibilities.',
   },
 ];

@@ -27,7 +27,7 @@ export const publications = [
     authors: 'Khaled Hasan, R. Islam, et al.',
     doi: '10.1016/j.array.2026.100901',
     link: 'https://doi.org/10.1016/j.array.2026.100901',
-    tags: ['Thesis', 'HCI', 'Machine Learning'],
+    tags: ['HCI', 'Machine Learning'],
   },
   {
     code: 'S.1',

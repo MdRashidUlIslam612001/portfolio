@@ -7,7 +7,7 @@ export const education = [
     details: [
       'CGPA 3.84/4.00',
       'Class rank: 3rd out of 88',
-      'Thesis: Adaptive user interface for mobile banking apps: Enhancing UX through machine learning',
+      'Thesis: Adaptive User Interface for Mobile Banking Apps: Enhancing UX through Machine Learning',
     ],
   },
   {

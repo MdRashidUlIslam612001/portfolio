@@ -19,7 +19,7 @@ export default function PublicationsSection() {
     <section className="section-shell">
       <SectionHeader id="publications" number="05" title="Publications" eyebrow="Research output">
         A publication record spanning robotics, HCI, computer vision, recommendation systems, usability, safety, and
-        intelligent systems. Entries are drawn from the provided CV, including DOI links where listed.
+        intelligent systems.
       </SectionHeader>
 
       <div className="mb-8 flex flex-wrap gap-2">
@@ -94,12 +94,7 @@ export default function PublicationsSection() {
         ))}
       </div>
 
-      <div className="mt-8 flex items-start gap-3 border border-slateLine bg-white p-4 text-sm leading-6 text-slate-600">
-        <Search className="mt-1 shrink-0 text-teal" size={18} />
-        <p>
-          Accepted or submitted manuscripts without public DOI links currently point to a publication status page.
-        </p>
-      </div>
+      
     </section>
   );
 }

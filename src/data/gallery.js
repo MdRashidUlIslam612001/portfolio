@@ -58,7 +58,7 @@ export const adventureGallery = [
     year: '2022',
     category: 'Travel',
     src: './gallery/istanbul-2022.jpg',
-    alt: 'Travel photo inside a historic interior in Istanbul in 2022',
+    alt: 'Travel photo inside Hagia Sophia in Istanbul in 2022',
     width: 1286,
     height: 1600,
   },
@@ -75,7 +75,7 @@ export const adventureGallery = [
 
 export const fieldworkGallery = [
   {
-    title: 'APICTA Awards, Taiwan',
+    title: 'APICTA Awards 2025, Taiwan',
     year: '2025',
     category: 'Innovation award',
     src: './gallery/taiwan-2025.jpg',
@@ -84,7 +84,7 @@ export const fieldworkGallery = [
     height: 1600,
   },
   {
-    title: 'University Rover Challenge',
+    title: 'University Rover Challenge 2021',
     year: '2021',
     category: 'Rover team',
     src: './gallery/urc-2021.jpg',
@@ -94,7 +94,7 @@ export const fieldworkGallery = [
     wide: true,
   },
   {
-    title: 'Anatolian Rover Challenge',
+    title: 'Anatolian Rover Challenge 2022',
     year: '2022',
     category: 'Rover fieldwork',
     src: './gallery/arc-2022.jpg',
@@ -103,7 +103,7 @@ export const fieldworkGallery = [
     height: 1600,
   },
   {
-    title: 'Anatolian Rover Challenge',
+    title: 'Anatolian Rover Challenge 2023',
     year: '2023',
     category: 'Rover fieldwork',
     src: './gallery/arc-2023.jpg',
@@ -112,7 +112,7 @@ export const fieldworkGallery = [
     height: 1600,
   },
   {
-    title: 'University Rover Challenge Field Site',
+    title: 'University Rover Challenge 2025',
     year: '2025',
     category: 'Rover fieldwork',
     src: './gallery/urc-2025.jpg',
@@ -130,7 +130,7 @@ export const fieldworkGallery = [
     height: 1600,
   },
   {
-    title: 'URC at MDRS',
+    title: 'University Rover Challenge 2026',
     year: '2026',
     category: 'Rover fieldwork',
     src: './gallery/urc-2026-mdrs.jpg',
