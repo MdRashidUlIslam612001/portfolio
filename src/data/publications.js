@@ -20,7 +20,7 @@ export const publications = [
     code: 'T, J.2',
     title: 'Adaptive User Interface for Mobile Banking Apps: Enhancing UX Through Machine Learning',
     primaryType: 'Journal',
-    categories: ['Journal', 'Thesis'],
+    categories: ['Thesis'],
     venue: 'Thesis-linked journal publication',
     status: 'Published journal article and thesis work',
     year: '2025',
