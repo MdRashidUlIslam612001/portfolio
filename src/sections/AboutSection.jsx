@@ -13,9 +13,7 @@ export default function AboutSection() {
     <section className="section-shell" aria-labelledby="about-heading">
       <SectionHeader id="about" number="01" title="About" eyebrow="Academic biography">
         <p id="about-heading">
-          Md Rashid Ul Islam is a Computer Science and Engineering lecturer at the Military Institute of Science and
-          Technology with a strong undergraduate record and a research profile shaped by robotics, AI, HCI, IoT, and
-          Intelligent Systems.
+          I am a Computer Science and Engineering lecturer at the Military Institute of Science and Technology with a strong undergraduate record and a research profile shaped by robotics, AI, HCI, IoT, and Intelligent Systems.
         </p>
       </SectionHeader>
 
@@ -44,7 +42,7 @@ export default function AboutSection() {
               research.
             </p>
             <p>
-              Combines teaching, student mentoring, and research development as a Lecturer at Military Institute of Science & Technology. Work spans
+              Combine teaching, student mentoring, and research development as a Lecturer at Military Institute of Science & Technology. Work spans
               cost-effective robotics, computer-vision systems for monitoring and prediction, adaptive interfaces,
               usability research for underrepresented users, and IoT-based embedded automation.
             </p>
