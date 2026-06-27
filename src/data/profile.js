@@ -16,7 +16,7 @@ export const profile = {
   website: 'https://mist.ac.bd/department/computer_science_and_engineering/faculty-members/md-rashid-ul-islam',
   ogUrl: 'https://mist.ac.bd/department/computer_science_and_engineering/faculty-members/md-rashid-ul-islam',
   summary:
-    'Lecturer in Computer Science and Engineering at MIST and a prospective PhD student focused on Robotics, Intelligent Systems and Human-Computer Interaction. Academic record, research publications, robotics leadership, and applied intelligent systems projects show a sustained interest in building deployable technologies for real-world settings.',
+    'I work as a Lecturer in Computer Science and Engineering at MIST and aspire to pursue a PhD focused on Robotics, Intelligent Systems, and Human-Computer Interaction. Through my academic record, research publications, robotics leadership, and applied intelligent systems projects, I have built a strong foundation in developing deployable technologies for real-world settings.',
   researchTags: [
     'Robotics',
     'Intelligent Systems',
