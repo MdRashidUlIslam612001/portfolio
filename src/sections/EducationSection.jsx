@@ -7,7 +7,6 @@ export default function EducationSection() {
   return (
     <section className="section-shell">
       <SectionHeader id="education" number="03" title="Education" eyebrow="Academic foundation">
-        A strong CSE background at MIST supported by consistent academic excellence before university study.
       </SectionHeader>
 
       <div className="space-y-8">
