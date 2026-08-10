@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="title">
+  <title id="title">MIST Research Hub project thumbnail</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#071827"/>
+      <stop offset="1" stop-color="#0b111d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="54%">
+      <stop offset="0" stop-color="#72d1d2" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#72d1d2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <circle cx="690" cy="330" r="360" fill="url(#glow)"/>
+  <path d="M142 144h996v512H142z" fill="#0d1a2b" stroke="#27354a" stroke-width="5"/>
+  <path d="M142 226h996" stroke="#27354a" stroke-width="5"/>
+  <circle cx="196" cy="185" r="14" fill="#72d1d2"/>
+  <circle cx="244" cy="185" r="14" fill="#d8ad5b"/>
+  <circle cx="292" cy="185" r="14" fill="#5c7797"/>
+  <rect x="210" y="284" width="250" height="300" rx="18" fill="#111b2c" stroke="#72d1d2" stroke-opacity=".55" stroke-width="5"/>
+  <rect x="515" y="284" width="250" height="300" rx="18" fill="#111b2c" stroke="#72d1d2" stroke-opacity=".55" stroke-width="5"/>
+  <rect x="820" y="284" width="250" height="300" rx="18" fill="#111b2c" stroke="#72d1d2" stroke-opacity=".55" stroke-width="5"/>
+  <path d="M258 352h154M258 402h132M258 452h164M258 502h98" stroke="#d8ad5b" stroke-width="13" stroke-linecap="round"/>
+  <path d="M563 352h154M563 402h132M563 452h164M563 502h98" stroke="#72d1d2" stroke-width="13" stroke-linecap="round"/>
+  <path d="M868 352h154M868 402h132M868 452h164M868 502h98" stroke="#d8ad5b" stroke-width="13" stroke-linecap="round"/>
+  <path d="M335 584v54M640 584v54M945 584v54M335 638h610" stroke="#72d1d2" stroke-opacity=".48" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="335" cy="638" r="18" fill="#72d1d2"/>
+  <circle cx="640" cy="638" r="18" fill="#d8ad5b"/>
+  <circle cx="945" cy="638" r="18" fill="#72d1d2"/>
+  <rect x="444" y="98" width="392" height="62" rx="31" fill="#111b2c" stroke="#27354a" stroke-width="4"/>
+  <path d="M510 129h260" stroke="#72d1d2" stroke-width="12" stroke-linecap="round"/>
+</svg>

@@ -37,7 +37,9 @@ export const awards = [
   {
     title: 'Nominated and Participated at Asia Pacific ICT Alliance Awards, Taiwan',
     year: '2025',
-    detail: 'Asia Pacific ICT Alliance Network; Team Lead of Team Anchor Eye.',
+    detail: '24th Asia Pacific ICT Alliance Awards, Kaohsiung; Team Lead of Team Anchor Eye.',
+    link: './certificates/anchor-eye-apicta-2025-certificate.pdf',
+    linkLabel: 'Certificate',
   },
   {
     title: 'Top 2% Paper Award',

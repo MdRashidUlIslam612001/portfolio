@@ -139,7 +139,7 @@ export const fieldworkGallery = [
     height: 1600,
   },
   {
-    title: 'Mars Desert Research Station',
+    title: 'University Rover Challenge 2026',
     year: '2026',
     category: 'Rover fieldwork',
     src: './gallery/urc-2026.jpg',

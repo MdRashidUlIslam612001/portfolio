@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="title">
+  <title id="title">Automatic watering system project thumbnail</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b111d"/>
+      <stop offset="1" stop-color="#071827"/>
+    </linearGradient>
+    <radialGradient id="water" cx="50%" cy="20%" r="70%">
+      <stop offset="0" stop-color="#72d1d2" stop-opacity=".78"/>
+      <stop offset="1" stop-color="#72d1d2" stop-opacity=".12"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <path d="M0 616h1280v184H0z" fill="#10251f"/>
+  <path d="M0 660c100-34 205-34 315 0s210 34 315 0 210-34 315 0 216 34 335 0" fill="none" stroke="#72d1d2" stroke-opacity=".25" stroke-width="6"/>
+  <rect x="486" y="496" width="308" height="148" rx="26" fill="#122238" stroke="#d8ad5b" stroke-width="8"/>
+  <path d="M554 496l-44-142 130 112 130-112-44 142" fill="#153824" stroke="#72d1d2" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M640 496V270" stroke="#72d1d2" stroke-width="12" stroke-linecap="round"/>
+  <path d="M640 350c-84-90-178-90-244 4 99 36 176 26 244-4z" fill="#153824" stroke="#72d1d2" stroke-width="8"/>
+  <path d="M640 318c80-92 176-99 254-16-93 49-172 50-254 16z" fill="#153824" stroke="#72d1d2" stroke-width="8"/>
+  <path d="M894 202h164v86H894z" fill="#111b2c" stroke="#27354a" stroke-width="5"/>
+  <path d="M894 245H736" stroke="#d8ad5b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1058 245c72 0 104 42 104 92 0 70-61 100-118 100" fill="none" stroke="#72d1d2" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1042 452c18 38 38 68 38 98 0 32-25 58-56 58s-56-26-56-58c0-30 38-90 74-98z" fill="url(#water)" stroke="#72d1d2" stroke-width="7"/>
+  <g fill="#111b2c" stroke="#72d1d2" stroke-width="7">
+    <circle cx="216" cy="452" r="52"/>
+    <circle cx="314" cy="540" r="42"/>
+  </g>
+  <path d="M216 452h206M314 540h172" stroke="#d8ad5b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M190 452h52M314 514v52" stroke="#72d1d2" stroke-width="8" stroke-linecap="round"/>
+</svg>
